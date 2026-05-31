@@ -1,11 +1,11 @@
 ---
 name: acp-workspace-management
 description: Manage ACP coding workspaces — start sessions, delegate tasks to coding agents, review proposed patches, handle permissions, and publish agents. Use when provisioning coding environments, delegating code tasks, reviewing agent patches, managing workspace permissions, or publishing coding agents.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-acp-workspace server connected.
 allowed-tools: [list_participants, start_session, delegate_task, get_session_updates, handle_permission, get_proposed_changes, review_patch, stop_session, publish_agent]
-tags: [infrastructure, workspace, coding, agents, patches]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-acp-workspace
   success-criteria:
